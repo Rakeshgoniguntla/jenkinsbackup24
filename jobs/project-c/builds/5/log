@@ -1,0 +1,87 @@
+Started by user [8mha:////4H1v3NWwyC0t0b+S2yVVuTBBFNfdel5bEmDCb6PFRiRuAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYx/dLi1CL9osTs1OKM9Py8zPTSvJKcRABPmwtwywAAAA==[0mRakesh Kumar Goniguntla
+Running as SYSTEM
+Building remotely on [8mha:////4Cep/PGtnxulWLcjplfQLvEWTIN+9OUT4BpzCZSWCHDBAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQifWfdgKL8rNTkEgAwJl9cyAAAAA==[0mC-Project (C-project) in workspace /home/jenkins/jenkins-workspace/workspace/project-c
+The recommended git tool is: NONE
+using credential myagentcred
+ > git rev-parse --resolve-git-dir /home/jenkins/jenkins-workspace/workspace/project-c/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Rakeshgoniguntla/assignment.git # timeout=10
+Fetching upstream changes from https://github.com/Rakeshgoniguntla/assignment.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials my agent credentials
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/Rakeshgoniguntla/assignment.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision aa40ce84d7f15f670250a8f7889ba9b6fb4c6c12 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f aa40ce84d7f15f670250a8f7889ba9b6fb4c6c12 # timeout=10
+Commit message: "assignment"
+ > git rev-list --no-walk aa40ce84d7f15f670250a8f7889ba9b6fb4c6c12 # timeout=10
+[project-c] $ /bin/sh -xe /tmp/jenkins864012928874786559.sh
++ cd /home/jenkins/jenkins-workspace/workspace/project-c
++ make ABC.exe
+cc    -c -o main.o main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | main() {
+      | ^~~~
+main.c: In function ‘main’:
+main.c:4:10: warning: implicit declaration of function ‘biggest’ [-Wimplicit-function-declaration]
+    4 |          biggest();
+      |          ^~~~~~~
+main.c:5:10: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+    5 |          factorial();
+      |          ^~~~~~~~~
+main.c:6:9: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+    6 |         reverse();
+      |         ^~~~~~~
+main.c:7:2: warning: implicit declaration of function ‘pallendrome’ [-Wimplicit-function-declaration]
+    7 |  pallendrome();
+      |  ^~~~~~~~~~~
+main.c:8:2: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+    8 |  big3();
+      |  ^~~~
+main.c:9:2: warning: implicit declaration of function ‘sum2’ [-Wimplicit-function-declaration]
+    9 |  sum2();
+      |  ^~~~
+main.c:10:2: warning: implicit declaration of function ‘fibanaci’ [-Wimplicit-function-declaration]
+   10 |  fibanaci();
+      |  ^~~~~~~~
+main.c:11:2: warning: implicit declaration of function ‘sort’ [-Wimplicit-function-declaration]
+   11 |  sort();
+      |  ^~~~
+gcc -c big2.c
+big2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | biggest()
+      | ^~~~~~~
+gcc -c fact.c
+fact.c:2:2: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 |  factorial() {
+      |  ^~~~~~~~~
+gcc -c rev.c
+rev.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | reverse()
+      | ^~~~~~~
+gcc -c pallendrome.c
+pallendrome.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | pallendrome()
+      | ^~~~~~~~~~~
+gcc -c big3.c
+big3.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    3 | big3()
+      | ^~~~
+gcc -c sum2.c
+sum2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | sum2() {
+      | ^~~~
+gcc -c fibanaci.c
+fibanaci.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | fibanaci() {
+      | ^~~~~~~~
+gcc -c sort.c
+sort.c:2:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 |     sort()
+      |     ^~~~
+gcc -o ABC.exe big2.o fact.o rev.o main.o pallendrome.o big3.o sum2.o fibanaci.o sort.o
+Finished: SUCCESS

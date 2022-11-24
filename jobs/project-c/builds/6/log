@@ -1,0 +1,30 @@
+Started by user [8mha:////4H1v3NWwyC0t0b+S2yVVuTBBFNfdel5bEmDCb6PFRiRuAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYx/dLi1CL9osTs1OKM9Py8zPTSvJKcRABPmwtwywAAAA==[0mRakesh Kumar Goniguntla
+Running as SYSTEM
+Building remotely on [8mha:////4Cep/PGtnxulWLcjplfQLvEWTIN+9OUT4BpzCZSWCHDBAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQifWfdgKL8rNTkEgAwJl9cyAAAAA==[0mC-Project (C-project) in workspace /home/jenkins/jenkins-workspace/workspace/project-c
+The recommended git tool is: NONE
+using credential myagentcred
+ > git rev-parse --resolve-git-dir /home/jenkins/jenkins-workspace/workspace/project-c/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Rakeshgoniguntla/assignment.git # timeout=10
+Fetching upstream changes from https://github.com/Rakeshgoniguntla/assignment.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials my agent credentials
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/Rakeshgoniguntla/assignment.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 3c3dd1adf108c46db4ee1dafb0a795e64cb6dd01 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3c3dd1adf108c46db4ee1dafb0a795e64cb6dd01 # timeout=10
+Commit message: "Update big2.c"
+ > git rev-list --no-walk aa40ce84d7f15f670250a8f7889ba9b6fb4c6c12 # timeout=10
+[project-c] $ /bin/sh -xe /tmp/jenkins8713511280200660466.sh
++ cd /home/jenkins/jenkins-workspace/workspace/project-c
++ make ABC.exe
+gcc -c big2.c
+big2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | biggest()
+      | ^~~~~~~
+gcc -o ABC.exe big2.o fact.o rev.o main.o pallendrome.o big3.o sum2.o fibanaci.o sort.o
+Finished: SUCCESS

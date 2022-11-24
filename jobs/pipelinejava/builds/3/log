@@ -1,0 +1,164 @@
+Started by user [8mha:////4H1v3NWwyC0t0b+S2yVVuTBBFNfdel5bEmDCb6PFRiRuAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYx/dLi1CL9osTs1OKM9Py8zPTSvJKcRABPmwtwywAAAA==[0mRakesh Kumar Goniguntla
+Obtained jenkinsclonebuild from git https://github.com/Rakeshgoniguntla/jenkinspipeline.git
+[8mha:////4M+NtBpqyFlcr/B707moej8maDVhsRIc72dT4p5XkYwGAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4MsZ6cx9qxMoGn/aggECwvJ0TQVyXrnBDC+Nfczwf2cMAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4ATlmJ4d9db/haEGG1+vfAyaQ2d/mgUAY1tKYY3gU9GmAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZ+/eT83ILSktQifbBhANLtnATEAAAA[0mjava in /home/ubuntu/jenkins/workspace/pipelinejava
+[8mha:////4KgwmKJFCY9S2WS6AlK2g1/vjCo3tCdATYMeCVwHmeOCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Hyw2cNKexPGUcnmuYicz5AJZodBvuL1se+lr1iYH0TaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4IyXH9ldqcg4gJfUUWyZ4X3gTHdZnHykeCoKsIyrbe35AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4AYm12ntNycOevQFqo3a0zurc6aMnGQBqSe1K/ctLjCZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Avoid second fetch
+Checking out Revision 0823b8af6ad7325a994ec39160acc3839f0ba796 (refs/remotes/origin/main)
+Commit message: "Update jenkinsclonebuild"
+Cloning repository https://github.com/Rakeshgoniguntla/jenkinspipeline.git
+ > git init /home/ubuntu/jenkins/workspace/pipelinejava # timeout=10
+Fetching upstream changes from https://github.com/Rakeshgoniguntla/jenkinspipeline.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/Rakeshgoniguntla/jenkinspipeline.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Rakeshgoniguntla/jenkinspipeline.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0823b8af6ad7325a994ec39160acc3839f0ba796 # timeout=10
+ > git rev-list --no-walk 0823b8af6ad7325a994ec39160acc3839f0ba796 # timeout=10
+[8mha:////4OlYlm9Ax4+kVTGPiyyE2Xmjc5YOpJaLK246vmwD83gTAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4KPLqukrloV6R/MdgT+GetGkwDLbuOoM+73vUou4pQIcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4D01EMKQMqlZ4407386EXYRBKl3YIJDQYEmWVVv8CAm2AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4P7F1ygA4bZLihebjaPRfmfqODx8Bf2cJNnPvO76VpQEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4JGEmQ75q4n11BxWOBzB4pRtybKxBS5xnVb8xb+gWS3dAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4EvMnwYU91+6CG7TCAEqZqjaoWyuzHiZh1mXyEdaAYY0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (clone)
+[8mha:////4PWNPquGzwtIX7ns9ZGYcCQ8fjNXxqoIeaVVr+X096EeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/ubuntu/jenkins/workspace/pipelinejava/.git # timeout=10
+ > git config remote.origin.url https://github.com/Rakeshgoniguntla/assignment.git # timeout=10
+Fetching upstream changes from https://github.com/Rakeshgoniguntla/assignment.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/Rakeshgoniguntla/assignment.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 3c3dd1adf108c46db4ee1dafb0a795e64cb6dd01 (refs/remotes/origin/main)
+Commit message: "Update big2.c"
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3c3dd1adf108c46db4ee1dafb0a795e64cb6dd01 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b main 3c3dd1adf108c46db4ee1dafb0a795e64cb6dd01 # timeout=10
+ > git rev-list --no-walk 3c3dd1adf108c46db4ee1dafb0a795e64cb6dd01 # timeout=10
+[8mha:////4KPgsahJki6kpSOz0xl4OtgUKUqV3+u+hfUY87Zg7LyAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4O/c7qS/hqHvblycuOKgPFcVysWQ6ACia5EACzpU2D8sAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4P+34hMWS1SdKkxugXWVhVrWjTZCowLxAaHc+/0Qv5QTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4IETOJ9XK7qDSdhzhmEaSktzoyiReqE7aSVYrdoGSEpCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Build)
+[8mha:////4KlkueSgTNhhGyFs6bWqJRRAAJuKiBDXsruB33UlWAnUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ cd /home/ubuntu/jenkins/workspace/pipelinejava/
++ make
+cc    -c -o main.o main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | main() {
+      | ^~~~
+main.c: In function ‘main’:
+main.c:4:10: warning: implicit declaration of function ‘biggest’ [-Wimplicit-function-declaration]
+    4 |          biggest();
+      |          ^~~~~~~
+main.c:5:10: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+    5 |          factorial();
+      |          ^~~~~~~~~
+main.c:6:9: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+    6 |         reverse();
+      |         ^~~~~~~
+main.c:7:2: warning: implicit declaration of function ‘pallendrome’ [-Wimplicit-function-declaration]
+    7 |  pallendrome();
+      |  ^~~~~~~~~~~
+main.c:8:2: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+    8 |  big3();
+      |  ^~~~
+main.c:9:2: warning: implicit declaration of function ‘sum2’ [-Wimplicit-function-declaration]
+    9 |  sum2();
+      |  ^~~~
+main.c:10:2: warning: implicit declaration of function ‘fibanaci’ [-Wimplicit-function-declaration]
+   10 |  fibanaci();
+      |  ^~~~~~~~
+main.c:11:2: warning: implicit declaration of function ‘sort’ [-Wimplicit-function-declaration]
+   11 |  sort();
+      |  ^~~~
+gcc -c big2.c
+big2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | biggest()
+      | ^~~~~~~
+gcc -c fact.c
+fact.c:2:2: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 |  factorial() {
+      |  ^~~~~~~~~
+gcc -c rev.c
+rev.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | reverse()
+      | ^~~~~~~
+gcc -c pallendrome.c
+pallendrome.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | pallendrome()
+      | ^~~~~~~~~~~
+gcc -c big3.c
+big3.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    3 | big3()
+      | ^~~~
+gcc -c sum2.c
+sum2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | sum2() {
+      | ^~~~
+gcc -c fibanaci.c
+fibanaci.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | fibanaci() {
+      | ^~~~~~~~
+gcc -c sort.c
+sort.c:2:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 |     sort()
+      |     ^~~~
+gcc -o ABC.exe big2.o fact.o rev.o main.o pallendrome.o big3.o sum2.o fibanaci.o sort.o
++ rm -rf big2.o big3.o fact.o fibanaci.o main.o pallendrome.o rev.o sort.o sum2.o
++ mkdir copy
++ mv /home/ubuntu/jenkins/workspace/pipelinejava/ABC.exe /home/ubuntu/jenkins/workspace/pipelinejava/copy
++ mv /home/ubuntu/jenkins/workspace/pipelinejava/big2.c /home/ubuntu/jenkins/workspace/pipelinejava/big3.c /home/ubuntu/jenkins/workspace/pipelinejava/fact.c /home/ubuntu/jenkins/workspace/pipelinejava/fibanaci.c /home/ubuntu/jenkins/workspace/pipelinejava/main.c /home/ubuntu/jenkins/workspace/pipelinejava/pallendrome.c /home/ubuntu/jenkins/workspace/pipelinejava/rev.c /home/ubuntu/jenkins/workspace/pipelinejava/sort.c /home/ubuntu/jenkins/workspace/pipelinejava/sum2.c makefile /home/ubuntu/jenkins/workspace/pipelinejava/copy
+[8mha:////4P5I1y0Qd69uQqJyxyD5VL0NAjy9o2c5bKAeCdnRfTpdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4DwnS3SrBXBI6cJebi61JRwwqAMC9GwoPqCZxkq2YHHHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EQoI6dJhywC0ETSqs1CStweyQ+cotrwVQKReBUT5lI/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohU7YqYWKMunCCkISSN/m+TlHbiRFyNOxCoxIQHy7ZkvecLyhjgSMFwp7G3GJXlg59MTnym0F89zdzRhSvCSF7zVs8tdfq01paShlUFg42ArUblKVo0CXbCybusvERTnVPI20EAs90IDyhEJicZ0rcsAfa3qYuEP85fACxDAlbX2Zrm8yzf8hZCqsIAAAA=[0m[Pipeline] stage
+[8mha:////4CP/+2zEO0J8g/ZWPNOuYVqQSHAiiHIbXDTYYqAziVIZAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (clone java)
+[8mha:////4JQOlUYJ22OjjzzSO5XV7ARrLJH9NQa8uxaCfmSkCtkAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Checking out Revision 54193af8c558fa7f2d66e4d0f0db86c46615bb51 (refs/remotes/origin/master)
+Commit message: "comitting pom.xml"
+ > git rev-parse --resolve-git-dir /home/ubuntu/jenkins/workspace/pipelinejava/.git # timeout=10
+ > git config remote.origin.url https://github.com/Rakeshgoniguntla/newjava.git # timeout=10
+Fetching upstream changes from https://github.com/Rakeshgoniguntla/newjava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/Rakeshgoniguntla/newjava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 54193af8c558fa7f2d66e4d0f0db86c46615bb51 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 54193af8c558fa7f2d66e4d0f0db86c46615bb51 # timeout=10
+ > git rev-list --no-walk 54193af8c558fa7f2d66e4d0f0db86c46615bb51 # timeout=10
+[8mha:////4BjDFbfCky1/uL+iyeicQcvxyfYHBJwKdPJbHshZAWLHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4Cs5WWbSnKjJPathxF99pn+K6pkDfVE9i7U8jPKzVgv/AAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // stage
+[8mha:////4FBfJqNPEZ3cgcDjGSyhharBzJgRKMOtPSD2FkYeqMpqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWFATF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQFBh4/6wgAAAA==[0m[Pipeline] stage
+[8mha:////4Kt/xAOOcT43c1FGFgcm3ogqAyPX9+xJClk9+uRKk36tAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Build maven)
+[8mha:////4PLQg2pwWExfQZk5XOx+pg+qk2KfXs/Se6mHc2qll5YoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ cd /home/ubuntu/jenkins/workspace/pipelinejava
++ mvn clean install
+/home/ubuntu/jenkins/workspace/pipelinejava@tmp/durable-2ab5e02f/script.sh: 3: mvn: not found
+[8mha:////4PtKSd438fDPiGf3i9GF7cw1vWB5eUIEPaKg436KGuH4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
+[8mha:////4LlHmtcGo0MPApwOQ4703+BKMlv+CzcWrUhhIDeUPPbqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // stage
+[8mha:////4DfH/lIviy83mY5Z+rersKA0DLtmTpbc8zMczQYFS9bnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzsc9X1Bw0nuru+AAAA[0m[Pipeline] }
+[8mha:////4PSnC8bQjwU9nnHySdZ+0FHJzNsMFvOPDIWCCN4Qz/4NAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSomo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9Bz7E4Qe+AAAA[0m[Pipeline] // withEnv
+[8mha:////4BaflAntA0XSotWiDSrZGQeAFt9mhFnNFUEk89MR5r8xAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9OLA1qvQAAAA==[0m[Pipeline] }
+[8mha:////4O4wJyO4eDTMXI673eIo1CD4fyIiyPnJo8I4tlDfqUsiAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUjJVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXZAJyb0AAAA=[0m[Pipeline] // node
+[8mha:////4Ft8uhYj+B8j6E7EV1cFjALLmycYCLhbkwKLy4VW7s5XAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ABvarvm9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 127
+Finished: FAILURE

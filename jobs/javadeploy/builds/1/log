@@ -1,0 +1,6 @@
+Started by user [8mha:////4H1v3NWwyC0t0b+S2yVVuTBBFNfdel5bEmDCb6PFRiRuAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYx/dLi1CL9osTs1OKM9Py8zPTSvJKcRABPmwtwywAAAA==[0mRakesh Kumar Goniguntla
+Running as SYSTEM
+Building remotely on [8mha:////4KhyZDOZe0tdibCAfC+8WZTeHWs7ZG7PpKq1LW8AAvM2AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifZBhRnrJAKTqvqvGAAAA[0mjava2.c (java1) in workspace /home/jenkins/jenkins-workspace/workspace/javadeploy
+[javadeploy] $ /bin/sh -xe /tmp/jenkins4555468512037210862.sh
++ cp -r /home/jenkins/jenkins-workspace/workspace/javabuild/target/hello-world-war-1.0.0.war /opt/apache-tomcat-10.0.27/webapps
+Finished: SUCCESS

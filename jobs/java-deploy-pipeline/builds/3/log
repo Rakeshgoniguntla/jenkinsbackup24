@@ -1,0 +1,54 @@
+Started by user [8mha:////4H1v3NWwyC0t0b+S2yVVuTBBFNfdel5bEmDCb6PFRiRuAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYx/dLi1CL9osTs1OKM9Py8zPTSvJKcRABPmwtwywAAAA==[0mRakesh Kumar Goniguntla
+Checking out git https://github.com/Rakeshgoniguntla/jenkinspipeline.git into /var/lib/jenkins/workspace/java-deploy-pipeline@script/1bbf56c9de1d5cd7ac2d8711043430252ac9dbfc54f1ca5774fd2ecb85b34553 to read jenkinsfile1
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Rakeshgoniguntla/jenkinspipeline.git
+ > git init /var/lib/jenkins/workspace/java-deploy-pipeline@script/1bbf56c9de1d5cd7ac2d8711043430252ac9dbfc54f1ca5774fd2ecb85b34553 # timeout=10
+Fetching upstream changes from https://github.com/Rakeshgoniguntla/jenkinspipeline.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/Rakeshgoniguntla/jenkinspipeline.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Rakeshgoniguntla/jenkinspipeline.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision af0204c2f04bca6e06dcd11d3d997f396b1df998 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f af0204c2f04bca6e06dcd11d3d997f396b1df998 # timeout=10
+Commit message: "javadeploy"
+First time build. Skipping changelog.
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: 7: Expected a stage @ line 7, column 7.
+         stage ("BUILD")
+         ^
+
+WorkflowScript: 8: Expected a stage @ line 8, column 9.
+           steps {
+           ^
+
+WorkflowScript: 6: No stages specified @ line 6, column 5.
+       stages {
+       ^
+
+3 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1107)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:624)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox$Scope.parse(GroovySandbox.java:163)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:142)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:127)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:562)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:514)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:336)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+[withMaven] downstreamPipelineTriggerRunListener - Failure to introspect build steps: java.io.IOException: java-deploy-pipeline #3 did not yet start
+[withMaven] downstreamPipelineTriggerRunListener - Failure to introspect build steps: java.io.IOException: java-deploy-pipeline #3 did not yet start
+Finished: FAILURE

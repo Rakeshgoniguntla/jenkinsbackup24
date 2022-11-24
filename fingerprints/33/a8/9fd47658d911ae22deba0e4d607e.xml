@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-13 12:53:36.229 UTC</timestamp>
+  <md5sum>33a89fd47658d911ae22deba0e4d607e</md5sum>
+  <fileName>Credential id=java name=jenkins (javacredentials)</fileName>
+  <usages>
+    <entry>
+      <string>Java</string>
+      <ranges>1-6</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1668685523357</timestamp>
+      <nodeName>javaprojects</nodeName>
+      <timestamp0>1668683363226</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

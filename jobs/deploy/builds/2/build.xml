@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>Build</upstreamProject>
+            <upstreamUrl>job/Build/</upstreamUrl>
+            <upstreamBuild>5</upstreamBuild>
+            <upstreamCauses>
+              <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.36.0">
+                <pushedBy>Rakeshgoniguntla</pushedBy>
+              </com.cloudbees.jenkins.GitHubPushCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>31</queueId>
+  <timestamp>1668507889127</timestamp>
+  <startTime>1668507889133</startTime>
+  <result>SUCCESS</result>
+  <duration>77</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>C-Project</builtOn>
+  <workspace>/home/jenkins/jenkins-workspace/workspace/deploy</workspace>
+  <hudsonVersion>2.361.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

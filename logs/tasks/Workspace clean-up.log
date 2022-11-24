@@ -1,0 +1,23 @@
+Started at Wed Nov 23 15:43:27 UTC 2022
+Checking artifacting
+Checking Assignment
+Checking Build
+Checking deploy
+Checking ENVPIPE
+Checking freestyle
+Checking git-private
+Checking gitprivate
+Checking Java
+Checking java-deploy-pipeline
+Checking javabuild
+Checking javadeploy
+Checking javaproject
+Checking parallelbuild
+Checking parallelpipeline
+Checking parameter_build
+Checking parameterisedjob
+Checking pipeline
+Checking pipelinejava
+Checking project-c
+Checking Testing
+Finished at Wed Nov 23 15:43:27 UTC 2022. 17ms

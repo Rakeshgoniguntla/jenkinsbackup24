@@ -1,0 +1,64 @@
+Started by user [8mha:////4H1v3NWwyC0t0b+S2yVVuTBBFNfdel5bEmDCb6PFRiRuAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYx/dLi1CL9osTs1OKM9Py8zPTSvJKcRABPmwtwywAAAA==[0mRakesh Kumar Goniguntla
+Running as SYSTEM
+Building remotely on [8mha:////4MsnJtEUsvBQS4ynxtdcMD01Mgs6Uw8IbovI0dSjwurdAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYx/eT83ILSktQifZBhBUX5WanJJcUAPYYIRssAAAA=[0mjavaprojects (java) in workspace /home/jenkins/jenkins-workspace/workspace/Java
+The recommended git tool is: NONE
+using credential java
+ > git rev-parse --resolve-git-dir /home/jenkins/jenkins-workspace/workspace/Java/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Rakeshgoniguntla/newjava.git # timeout=10
+Fetching upstream changes from https://github.com/Rakeshgoniguntla/newjava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials javacredentials
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/Rakeshgoniguntla/newjava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 54193af8c558fa7f2d66e4d0f0db86c46615bb51 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 54193af8c558fa7f2d66e4d0f0db86c46615bb51 # timeout=10
+Commit message: "comitting pom.xml"
+First time build. Skipping changelog.
+[Java] $ mvn cd /home/jenkins/jenkins-workspace/workspace/Java mvn clean install
+FATAL: command execution failed
+java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to javaprojects
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1784)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)
+		at hudson.remoting.Channel.call(Channel.java:1000)
+		at hudson.Launcher$RemoteLauncher.launch(Launcher.java:1124)
+		at hudson.Launcher$ProcStarter.start(Launcher.java:509)
+		at hudson.Launcher$ProcStarter.join(Launcher.java:520)
+		at hudson.tasks.Maven.perform(Maven.java:369)
+		at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:816)
+		at hudson.model.Build$BuildExecution.build(Build.java:199)
+		at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:524)
+		at hudson.model.Run.execute(Run.java:1899)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+		at hudson.model.ResourceController.execute(ResourceController.java:107)
+		at hudson.model.Executor.run(Executor.java:449)
+Caused: java.io.IOException: Cannot run program "mvn" (in directory "/home/jenkins/jenkins-workspace/workspace/Java"): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at hudson.Proc$LocalProc.<init>(Proc.java:254)
+	at hudson.Proc$LocalProc.<init>(Proc.java:223)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:997)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:509)
+	at hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1398)
+	at hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1340)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:376)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

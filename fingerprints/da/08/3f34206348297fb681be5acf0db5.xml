@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-18 13:36:55.139 UTC</timestamp>
+  <md5sum>da083f34206348297fb681be5acf0db5</md5sum>
+  <fileName>Credential id=gitprivate1 name=ubuntu (git private)</fileName>
+  <usages>
+    <entry>
+      <string>gitprivate</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

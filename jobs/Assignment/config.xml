@@ -1,0 +1,75 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>stage1</string>
+        <string>JOB_NAME</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.BooleanParameterDefinition>
+          <name>stage1</name>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>JOB_NAME</name>
+          <description>Enter the Job Name</description>
+          <defaultValue>Assignment</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3536.vb_8a_6628079d5">
+    <script>pipeline {
+	agent any 
+		parameters {
+			 booleanParam &apos;stage1&apos;
+			 string defaultValue: &apos;Assignment&apos;, description: &apos;Enter the Job Name&apos;, name: &apos;JOB_NAME&apos;, trim: true
+				}
+		
+
+		stages {
+			stage (&apos;1st stage&apos;) {
+				steps {
+					echo &quot;${params.stage1}&quot;
+					}
+				}
+			stage (&apos;2nd-Stage&apos;) {
+				
+				steps {
+					echo &quot;${params.JOB_NAME}&quot;
+					}
+				}
+			stage (&apos;3rd-Stage&apos;) {
+				agent { label &apos;C-project&apos; }
+				steps {
+					sh &apos;&apos;&apos;
+					df -h .
+					&apos;&apos;&apos;
+				}
+			}
+			stage (&apos;4th Stage&apos;) {
+				steps {
+					sh &apos;&apos;&apos;
+					ps -ef 
+					&apos;&apos;&apos;
+					}
+				}
+			}
+		}		</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

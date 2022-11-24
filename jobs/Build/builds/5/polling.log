@@ -1,0 +1,16 @@
+Started on Nov 15, 2022, 10:24:31 AM
+Started by event from 140.82.115.105 ⇒ http://54.81.105.71:8080/github-webhook/ on Tue Nov 15 10:24:31 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision b9abe73d90751e0482ad2c2ca254c2d743ff4bc0 (refs/remotes/origin/main)
+The recommended git tool is: NONE
+using credential myagentcred
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials my agent credentials
+Verifying host key using known hosts file
+[8mha:////4EqsmMeXrR+jkfjk9iTPTb9wBrXFPvE9LaNtNG9PmGYzAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git ls-remote -h -- https://github.com/Rakeshgoniguntla/assignment.git # timeout=10
+Found 1 remote heads on https://github.com/Rakeshgoniguntla/assignment.git
+[poll] Latest remote head revision on refs/heads/main is: 3c3dd1adf108c46db4ee1dafb0a795e64cb6dd01
+Done. Took 0.13 sec
+Changes found

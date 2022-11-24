@@ -1,0 +1,163 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors>
+    <string>jenkins.diagnostics.ControllerExecutorsAgents</string>
+    <string>hudson.diagnosis.ReverseProxySetupMonitor</string>
+  </disabledAdministrativeMonitors>
+  <version>2.361.3</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Create:rakeshgoniguntla</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Create:tester1</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:rakeshgoniguntla</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:tester1</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:rakeshgoniguntla</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:tester1</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Update:rakeshgoniguntla</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Update:tester1</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:developer1</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:rakeshgoniguntla</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:tester1</permission>
+    <permission>USER:hudson.model.Computer.Build:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Computer.Build:tester1</permission>
+    <permission>USER:hudson.model.Computer.Configure:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Computer.Configure:tester1</permission>
+    <permission>USER:hudson.model.Computer.Connect:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Computer.Connect:tester1</permission>
+    <permission>USER:hudson.model.Computer.Create:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Computer.Create:tester1</permission>
+    <permission>USER:hudson.model.Computer.Delete:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Computer.Delete:tester1</permission>
+    <permission>USER:hudson.model.Computer.Disconnect:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Computer.Disconnect:tester1</permission>
+    <permission>USER:hudson.model.Hudson.Administer:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Hudson.Administer:tester1</permission>
+    <permission>USER:hudson.model.Hudson.Read:developer1</permission>
+    <permission>USER:hudson.model.Hudson.Read:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Hudson.Read:tester1</permission>
+    <permission>USER:hudson.model.Item.Build:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Item.Build:tester1</permission>
+    <permission>USER:hudson.model.Item.Cancel:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Item.Cancel:tester1</permission>
+    <permission>USER:hudson.model.Item.Configure:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Item.Configure:tester1</permission>
+    <permission>USER:hudson.model.Item.Create:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Item.Create:tester1</permission>
+    <permission>USER:hudson.model.Item.Delete:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Item.Delete:tester1</permission>
+    <permission>USER:hudson.model.Item.Discover:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Item.Discover:tester1</permission>
+    <permission>USER:hudson.model.Item.Move:developer1</permission>
+    <permission>USER:hudson.model.Item.Move:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Item.Move:tester1</permission>
+    <permission>USER:hudson.model.Item.Read:developer1</permission>
+    <permission>USER:hudson.model.Item.Read:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Item.Read:tester1</permission>
+    <permission>USER:hudson.model.Item.Workspace:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Item.Workspace:tester1</permission>
+    <permission>USER:hudson.model.Run.Delete:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Run.Delete:tester1</permission>
+    <permission>USER:hudson.model.Run.Replay:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Run.Update:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.Run.Update:tester1</permission>
+    <permission>USER:hudson.model.View.Configure:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.View.Configure:tester1</permission>
+    <permission>USER:hudson.model.View.Create:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.View.Create:tester1</permission>
+    <permission>USER:hudson.model.View.Delete:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.View.Delete:tester1</permission>
+    <permission>USER:hudson.model.View.Read:developer1</permission>
+    <permission>USER:hudson.model.View.Read:rakeshgoniguntla</permission>
+    <permission>USER:hudson.model.View.Read:tester1</permission>
+    <permission>USER:hudson.scm.SCM.Tag:developer1</permission>
+    <permission>USER:hudson.scm.SCM.Tag:rakeshgoniguntla</permission>
+    <permission>USER:hudson.scm.SCM.Tag:tester1</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Promote:rakeshgoniguntla</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Promote:tester1</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Release:rakeshgoniguntla</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Release:tester1</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>false</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>Java</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="java.lang.String$CaseInsensitiveComparator"/>
+        <string>artifacting</string>
+        <string>Assignment</string>
+        <string>ENVPIPE</string>
+        <string>git-private</string>
+        <string>gitprivate</string>
+        <string>installgit</string>
+        <string>java-deploy-pipeline</string>
+        <string>javaproject</string>
+        <string>parallelbuild</string>
+        <string>parallelpipeline</string>
+        <string>parameter_build</string>
+        <string>parameterisedjob</string>
+        <string>pipelinejava</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties>
+    <hudson.slaves.EnvironmentVariablesNodeProperty>
+      <envVars serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="java.lang.String$CaseInsensitiveComparator" reference="../../../../../../views/listView/jobNames/comparator"/>
+          </default>
+          <int>1</int>
+          <string>NAME</string>
+          <string>RAKESH</string>
+        </tree-map>
+      </envVars>
+    </hudson.slaves.EnvironmentVariablesNodeProperty>
+  </globalNodeProperties>
+  <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
+</hudson>

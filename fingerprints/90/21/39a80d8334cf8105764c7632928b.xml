@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-13 15:52:02.147 UTC</timestamp>
+  <md5sum>902139a80d8334cf8105764c7632928b</md5sum>
+  <fileName>Credential id=javanode name=jenkins (javanode credentials)</fileName>
+  <usages>
+    <entry>
+      <string>Java</string>
+      <ranges>7-16</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1669282325497</timestamp>
+      <nodeName>java2.c</nodeName>
+      <timestamp0>1669280165320</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>
